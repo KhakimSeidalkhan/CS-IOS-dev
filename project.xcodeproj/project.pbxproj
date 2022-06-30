@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771F760B286D432B00A00C57 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F760A286D432B00A00C57 /* Session.swift */; };
 		773885E727A997B3002966C8 /* PhotoListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773885E627A997B3002966C8 /* PhotoListCollectionViewController.swift */; };
 		773885F027AA6D28002966C8 /* PhotoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773885EE27AA6D28002966C8 /* PhotoListCollectionViewCell.swift */; };
 		773885F127AA6D28002966C8 /* PhotoListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773885EF27AA6D28002966C8 /* PhotoListCollectionViewCell.xib */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		771F760A286D432B00A00C57 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		773885E627A997B3002966C8 /* PhotoListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewController.swift; sourceTree = "<group>"; };
 		773885EE27AA6D28002966C8 /* PhotoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewCell.swift; sourceTree = "<group>"; };
 		773885EF27AA6D28002966C8 /* PhotoListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				776D3E032798F77700AF3A56 /* LaunchScreen.storyboard */,
 				776D3E062798F77700AF3A56 /* Info.plist */,
 				77480A4A2865284700A5F287 /* NewsData.xcdatamodeld */,
+				771F760A286D432B00A00C57 /* Session.swift */,
 			);
 			path = project;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771F760B286D432B00A00C57 /* Session.swift in Sources */,
 				773885F427AA7027002966C8 /* PhotoListModel.swift in Sources */,
 				776D3DFD2798F77500AF3A56 /* ViewController.swift in Sources */,
 				778FAB3427A81EAD00207B20 /* NotFollowedGroupsTableViewController.swift in Sources */,
